@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/ardsen.github.io/static/css/main.a4e310cf.css",
+    "main.js": "/ardsen.github.io/static/js/main.0a95b650.js",
+    "static/media/info-bg.png": "/ardsen.github.io/static/media/info-bg.782fca15c950aaaf886f.png",
+    "index.html": "/ardsen.github.io/index.html",
+    "main.a4e310cf.css.map": "/ardsen.github.io/static/css/main.a4e310cf.css.map",
+    "main.0a95b650.js.map": "/ardsen.github.io/static/js/main.0a95b650.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a4e310cf.css",
+    "static/js/main.0a95b650.js"
+  ]
+}
