@@ -60,7 +60,7 @@ function Main() {
         )}
         {count === 2 && (
           <ProjectsSection
-            bg="url(/projects-img-3.png)"
+            bg="url(/projects-img-2.png)"
             count={count}
             setCount={setCount}
             h={bankistH}
@@ -70,7 +70,7 @@ function Main() {
         )}
         {count === 3 && (
           <ProjectsSection
-            bg="url(/projects-img-2.png)"
+            bg="url(/projects-img-3.png)"
             count={count}
             setCount={setCount}
             h={natgeoH}
@@ -80,7 +80,7 @@ function Main() {
         )}
         {count === 4 && (
           <ProjectsSection
-            bg="url(/github-128.webp)"
+            bg="url(/projects-img-4.png)"
             count={count}
             setCount={setCount}
             h={githubH}
