@@ -722,6 +722,9 @@ main {
 .close-button:active {
   transform: scale(0.9);
 }
+.close-button img {
+  width: 100%;
+}
 .about-project-modal {
   display: flex;
   height: 100%;
@@ -1060,10 +1063,12 @@ main {
   }
 
   .skill-info-top {
-    justify-content: center;
-    gap: 0;
+    gap: 1rem;
     width: auto;
     min-height: 4rem;
+  }
+  .skill-info-top h3 {
+    font-size: 26px;
   }
   .skill-orbit {
     width: 100%;
