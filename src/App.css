@@ -1060,17 +1060,18 @@ main {
     align-items: center;
     justify-content: center;
     margin-top: 70px;
+    width: 100%;
   }
 
   .skill-info-top {
     gap: 1rem;
     width: auto;
     min-height: 4rem;
-    flex-direction: row-reverse;
+    flex-direction: column-reverse;
   }
   .skill-info-top h3 {
-    font-size: 26px;
-    width: 60%;
+    font-size: 24px;
+    width: auto;
   }
   .skill-orbit {
     width: 100%;
