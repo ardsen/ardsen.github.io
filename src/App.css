@@ -1056,16 +1056,14 @@ main {
     padding: 0 0.4rem;
     align-items: center;
     justify-content: center;
-    margin-top: 50px;
-    flex-direction: column-reverse;
+    margin-top: 70px;
   }
-  .skill-info-bottom {
-    height: auto;
-  }
+
   .skill-info-top {
     justify-content: center;
     gap: 0;
     width: auto;
+    min-height: 4rem;
   }
   .skill-orbit {
     width: 100%;
@@ -1204,5 +1202,10 @@ main {
   }
   .class-card p {
     width: 100%;
+  }
+}
+@media (max-width: 400px) {
+  .about-section-container {
+    margin-top: 100px;
   }
 }
