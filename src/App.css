@@ -977,7 +977,7 @@ main {
     left: calc(50% - 32%);
   }
 }
-@media (max-width: 1023px) {
+@media (max-width: 1024px) {
   .nav-container {
     display: none;
   }
@@ -1056,9 +1056,14 @@ main {
     padding: 0 0.4rem;
     align-items: center;
     justify-content: center;
+    margin-top: 50px;
+  }
+  .skill-info-bottom {
+    height: auto;
   }
   .skill-info-top {
     justify-content: center;
+    gap: 0;
   }
   .skill-orbit {
     width: 100%;

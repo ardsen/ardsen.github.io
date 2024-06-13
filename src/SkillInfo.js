@@ -3,7 +3,7 @@ function SkillInfo({ p, img, h }) {
         <div className="skill-info">
             <div className="skill-info-top">
                 <div className="skill-info-img">
-                    <img src={img} alt={`${p} logo`} />
+                    <img src={img} alt={`${h} logo`} />
                 </div>
                 <h3>{h}</h3>
             </div>
