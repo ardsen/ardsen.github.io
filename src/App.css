@@ -341,7 +341,7 @@ main {
   width: 100%;
 }
 .skills-section-container {
-  height: 94svh;
+  height: 94vh;
   width: 100%;
   display: flex;
   align-items: center;
@@ -515,7 +515,7 @@ main {
   /* top: 3rem; */
 }
 .about-section-container {
-  height: 65svh;
+  height: 65vh;
   width: 100%;
   /* background-color: var(--bg-color); */
   display: flex;
@@ -568,7 +568,7 @@ main {
 }
 .contact-section {
   margin-top: 100px;
-  height: 94svh;
+  height: 94vh;
   width: 100%;
   display: flex;
   justify-content: center;
@@ -680,7 +680,7 @@ main {
 }
 .about-app-section {
   width: 36%;
-  height: 80svh;
+  height: 80vh;
   display: flex;
   justify-content: center;
   align-items: center;
