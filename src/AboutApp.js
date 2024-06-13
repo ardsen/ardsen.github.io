@@ -27,7 +27,9 @@ function AboutApp({ setIsModalOpen }) {
                         <p>In the game, pressing the right button on the right time is essential. You should be able to manage your stamina and health bar. Basic attack deals less damage and consumes less stamina while strong attack deals more damage and consume more stamina. Also there is a crush attack which ignores the opponents defence. You also can choose to play sorcerer class to deal tons of damage with spells but you should be careful with your health bar.
 
                         </p>
-                        <img src="attackcont.png" alt="attack section" />
+                        <div >
+                            <img src="attackcont.png" alt="attack section" />
+                        </div>
                     </div>
                 </div>
                 <div className="classes" id="cont-3">
