@@ -40,7 +40,7 @@ function Main() {
 
     const changeImg = setInterval(() => {
       setCount((count) => count + 1);
-    }, 111111);
+    }, 9000);
 
     return () => clearInterval(changeImg);
   }, [count]);

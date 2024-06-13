@@ -1039,9 +1039,14 @@ main {
   }
   .project-p {
     width: 100%;
-    background-color: var(--primary-color);
     color: var(--secondary-color);
     transform: translateY(55%);
+  }
+  .project-p p {
+    background-color: #2c3e50;
+    padding: 0.5rem 0.5rem;
+    border-radius: 10px;
+    text-shadow: 1px 1px 5px black;
   }
   .animation-l-r {
     animation-name: animationLR2;
