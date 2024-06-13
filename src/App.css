@@ -1066,6 +1066,7 @@ main {
     gap: 1rem;
     width: auto;
     min-height: 4rem;
+    flex-direction: row-reverse;
   }
   .skill-info-top h3 {
     font-size: 26px;
