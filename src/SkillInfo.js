@@ -1,4 +1,5 @@
 function SkillInfo({ p, img, h }) {
+
     return (
         <div className="skill-info">
             <div className="skill-info-top">

@@ -265,6 +265,10 @@ main {
   letter-spacing: 1.1px;
   padding: 0.4rem 2rem;
   border-radius: 20px;
+  height: 40%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 /* .project-p-overlay {
   position: absolute;
@@ -951,6 +955,10 @@ main {
   }
   .project-p {
     width: 50%;
+    height: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
 }
 @media (max-width: 1320px) {
