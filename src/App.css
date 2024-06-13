@@ -1070,6 +1070,7 @@ main {
   }
   .skill-info-top h3 {
     font-size: 26px;
+    width: 60%;
   }
   .skill-orbit {
     width: 100%;
