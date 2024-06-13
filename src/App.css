@@ -1064,6 +1064,7 @@ main {
   .skill-info-top {
     justify-content: center;
     gap: 0;
+    width: auto;
   }
   .skill-orbit {
     width: 100%;
