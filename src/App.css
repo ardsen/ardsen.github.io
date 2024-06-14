@@ -1230,3 +1230,19 @@ main {
     margin-top: 100px;
   }
 }
+
+@media (max-height: 700px) {
+  .skills-section-container {
+    margin-top: 200px;
+  }
+  .skills-section-inner-container {
+    gap: 3rem;
+  }
+  .contact-section-container {
+    gap: 0;
+  }
+  .svg-container img {
+    width: 2.2rem;
+    height: 2.2rem;
+  }
+}
