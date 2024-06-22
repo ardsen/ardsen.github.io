@@ -14,10 +14,10 @@ function Main() {
   const korchaP =
     "Korcha is my biggest and latest application yet. It is a turn-based web browser game developed with React. I created this app to enhance my React skills and test my capabilities. Currently, it is a front-end-only application, allowing users to sign up, log in, and play without a back-end. I am currently studying Node.js, and the back-end of the app will be completed soon.";
   const korchaB = "https://korcha-game.vercel.app/";
-  const bankistH = "Bankist - A Banking App";
+  const bankistH = "Get a Country";
   const bankistP =
-    "Bankist is an application that allows you to perform simple transactions such as transferring money and requesting loans. I developed this app during a JavaScript course taught by Jonas Schmedtmann on Udemy.";
-  const bankistB = "https://ardsen.github.io/bankistapp/";
+    "Get a Country is an app where you can obtain information about the country you are currently located in, or discover details about a random country. I developed this app to practice API fetching and chaining multiple fetch requests. This application not only showcases my skills in handling APIs but also provides a user-friendly interface for exploring countries around the world.";
+  const bankistB = "https://ardsen.github.io/get-a-country/";
   const natgeoH = "National Geographic Homepage Clone";
   const natgeoP =
     "Natgeo Clone is an HTML and CSS only project. As my first project, it holds special significance for me. I created it while learning HTML and CSS to enhance my skills in these areas.";

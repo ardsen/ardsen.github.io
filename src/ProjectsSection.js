@@ -22,6 +22,7 @@ function ProjectsSection({ bg, count, setCount, p, b, h, setIsModalOpen }) {
           </div>
           <div className="project-btn-container animation-opacity">
             {count === 1 && <button onClick={() => { setIsModalOpen(true) }}>About the App</button>}
+            {count === 2 && <a target="_blank" rel="noreferrer" href="https://github.com/ardsen/get-a-country"><button>Github Repo</button></a>}
             <ProjectButton b={b}>Go to Website</ProjectButton>
           </div>
         </div>
