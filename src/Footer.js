@@ -4,7 +4,7 @@ function Footer() {
             <div>
                 <p>© 2024 Arda Şen. All Rights Reserved.</p>
             </div>
-            <ul>
+            <ul style={{ textAlign: "end" }}>
                 <li>Ankara, Turkey</li>
                 <li><a href="mailto:as.ardasen@gmail.com"
                     target="_blank"

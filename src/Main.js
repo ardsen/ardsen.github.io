@@ -10,18 +10,17 @@ import AboutApp from "./AboutApp";
 function Main() {
   const [isModalOpen, setIsModalOpen] = useState(false);
   const [count, setCount] = useState(1);
-  const korchaH = "Korcha - Turn Based Web Browser Game";
+  const korchaH = "Korcha - A Browser Game";
   const korchaP =
     "Korcha is my biggest and latest application yet. It is a turn-based web browser game developed with React. I created this app to enhance my React skills and test my capabilities. Currently, it is a front-end-only application, allowing users to sign up, log in, and play without a back-end. I am currently studying Node.js, and the back-end of the app will be completed soon.";
   const korchaB = "https://korcha-game.vercel.app/";
-  const bankistH = "Get a Country";
-  const bankistP =
-    "Get a Country is an app where you can obtain information about the country you are currently located in, or discover details about a random country. I developed this app to practice API fetching and chaining multiple fetch requests. This application not only showcases my skills in handling APIs but also provides a user-friendly interface for exploring countries around the world.";
-  const bankistB = "https://ardsen.github.io/get-a-country/";
-  const natgeoH = "National Geographic Homepage Clone";
+  const bankistH = "Forkify - A Recipe App";
+  const bankistP = "Forkify is an app where you can search between thousands of recipes and find detailed information about them. The app was developed following the model-view-controller (MVC) architecture. It also has features like bookmarking, adding new recipes and more. I built this app with Jonas Schmedtmann during the courses I took from him on Udemy.";
+  const bankistB = "https://main--forkify-arda.netlify.app/";
+  const natgeoH = "Get a Country";
   const natgeoP =
-    "Natgeo Clone is an HTML and CSS only project. As my first project, it holds special significance for me. I created it while learning HTML and CSS to enhance my skills in these areas.";
-  const natgeoB = "https://ardsen.github.io/nat-geo-homepage-clone/";
+    "Get a Country is an app where you can obtain information about the country you are currently located in, or discover details about a random country. I developed this app to practice API fetching and chaining multiple fetch requests. This application not only showcases my skills in handling APIs but also provides a user-friendly interface for exploring countries around the world.";
+  const natgeoB = "https://ardsen.github.io/get-a-country/";
   const githubH = "GitHub for More";
   const githubP = "You can visit my GitHub page to see more of my work.";
   const githubB = "https://github.com/ardsen";
@@ -66,6 +65,7 @@ function Main() {
             h={bankistH}
             p={bankistP}
             b={bankistB}
+            githubRepo="https://github.com/ardsen/forkify-app"
           />
         )}
         {count === 3 && (
@@ -76,6 +76,7 @@ function Main() {
             h={natgeoH}
             p={natgeoP}
             b={natgeoB}
+            githubRepo="https://github.com/ardsen/get-a-country"
           />
         )}
         {count === 4 && (

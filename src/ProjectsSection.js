@@ -2,7 +2,7 @@ import Dot from "./Dot";
 import ProjectButton from "./ProjectButton";
 
 
-function ProjectsSection({ bg, count, setCount, p, b, h, setIsModalOpen }) {
+function ProjectsSection({ bg, count, setCount, p, b, h, setIsModalOpen, githubRepo }) {
   return (
     <section
       className="projects-section " id="section-1"
@@ -22,8 +22,8 @@ function ProjectsSection({ bg, count, setCount, p, b, h, setIsModalOpen }) {
           </div>
           <div className="project-btn-container animation-opacity">
             {count === 1 && <button onClick={() => { setIsModalOpen(true) }}>About the App</button>}
-            {count === 2 && <a target="_blank" rel="noreferrer" href="https://github.com/ardsen/get-a-country"><button>Github Repo</button></a>}
-            <ProjectButton b={b}>Go to Website</ProjectButton>
+            {(count === 2 || count === 3) && <a target="_blank" rel="noreferrer" href={githubRepo}><button>Github Repo</button></a>}
+            <ProjectButton b={b}>{count === 4 ? "Go to GitHub" : "Go to Website"}</ProjectButton>
           </div>
         </div>
       </div>
