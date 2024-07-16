@@ -14,14 +14,14 @@ function Main() {
   const korchaP =
     "Korcha is my biggest and latest application yet. It is a turn-based web browser game developed with React. I created this app to enhance my React skills and test my capabilities. Currently, it is a front-end-only application, allowing users to sign up, log in, and play without a back-end. I am currently studying Node.js, and the back-end of the app will be completed soon.";
   const korchaB = "https://korcha-game.vercel.app/";
-  const bankistH = "Forkify - A Recipe App";
+  const bankistH = "My Movie List";
   const bankistP =
-    "Forkify is an app where you can search between thousands of recipes and find detailed information about them. The app was developed following the model-view-controller (MVC) architecture. It also has features like bookmarking, adding new recipes and more.";
-  const bankistB = "https://main--forkify-arda.netlify.app/";
-  const natgeoH = "Get a Country";
+    "My Movie List is a React app where you can search over thousands of movies and find details about them. You can also rate them and add to your watched list! New features will be applied soon.";
+  const bankistB = "https://ardsen.github.io/my-movie-list/";
+  const natgeoH = "Forkify - A Recipe App";
   const natgeoP =
-    "Get a Country is an app where you can obtain information about the country you are currently located in, or discover details about a random country. I developed this app to practice API fetching and chaining multiple fetch requests. This application not only showcases my skills in handling APIs but also provides a user-friendly interface for exploring countries around the world.";
-  const natgeoB = "https://ardsen.github.io/get-a-country/";
+    "Forkify is an app where you can search between thousands of recipes and find detailed information about them. The app was developed following the model-view-controller (MVC) architecture. It also has features like bookmarking, adding new recipes and more.";
+  const natgeoB = "https://main--forkify-arda.netlify.app/";
   const githubH = "GitHub for More";
   const githubP = "You can visit my GitHub page to see more of my work.";
   const githubB = "https://github.com/ardsen";
@@ -60,7 +60,7 @@ function Main() {
         )}
         {count === 2 && (
           <ProjectsSection
-            bg="url(/projects-img-2.png)"
+            bg="url(/my-movie-list.png)"
             count={count}
             setCount={setCount}
             h={bankistH}
@@ -71,7 +71,7 @@ function Main() {
         )}
         {count === 3 && (
           <ProjectsSection
-            bg="url(/projects-img-3.png)"
+            bg="url(/projects-img-2.png)"
             count={count}
             setCount={setCount}
             h={natgeoH}
