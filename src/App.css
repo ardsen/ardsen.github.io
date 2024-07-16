@@ -1231,7 +1231,7 @@ main {
   }
 }
 
-@media (max-height: 700px) {
+@media (max-height: 790px) {
   .skills-section-container {
     margin-top: 200px;
   }
@@ -1244,5 +1244,13 @@ main {
   .svg-container img {
     width: 2.2rem;
     height: 2.2rem;
+  }
+}
+@media (max-height: 790px) {
+  .contact-form input,
+  .contact-form label,
+  .contact-form textarea {
+    font-size: smaller;
+    margin-bottom: 5px;
   }
 }
