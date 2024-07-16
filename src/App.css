@@ -1,5 +1,4 @@
 @import url("https://fonts.googleapis.com/css2?family=Merienda:wght@300..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
-
 @import url("https://fonts.googleapis.com/css2?family=Rubik+Glitch+Pop&display=swap");
 
 :root {
@@ -640,6 +639,7 @@ main {
 
 .contact-form input,
 .contact-form textarea {
+  font-family: sans-serif;
   width: 100%;
   padding: 10px;
   margin-bottom: 20px;
