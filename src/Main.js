@@ -15,7 +15,8 @@ function Main() {
     "Korcha is my biggest and latest application yet. It is a turn-based web browser game developed with React. I created this app to enhance my React skills and test my capabilities. Currently, it is a front-end-only application, allowing users to sign up, log in, and play without a back-end. I am currently studying Node.js, and the back-end of the app will be completed soon.";
   const korchaB = "https://korcha-game.vercel.app/";
   const bankistH = "Forkify - A Recipe App";
-  const bankistP = "Forkify is an app where you can search between thousands of recipes and find detailed information about them. The app was developed following the model-view-controller (MVC) architecture. It also has features like bookmarking, adding new recipes and more. I built this app with Jonas Schmedtmann during the courses I took from him on Udemy.";
+  const bankistP =
+    "Forkify is an app where you can search between thousands of recipes and find detailed information about them. The app was developed following the model-view-controller (MVC) architecture. It also has features like bookmarking, adding new recipes and more.";
   const bankistB = "https://main--forkify-arda.netlify.app/";
   const natgeoH = "Get a Country";
   const natgeoP =
