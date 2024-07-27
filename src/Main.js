@@ -10,18 +10,23 @@ import AboutApp from "./AboutApp";
 function Main() {
   const [isModalOpen, setIsModalOpen] = useState(false);
   const [count, setCount] = useState(1);
-  const korchaH = "Korcha - A Browser Game";
-  const korchaP =
-    "Korcha is my biggest and latest application yet. It is a turn-based web browser game developed with React. I created this app to enhance my React skills and test my capabilities. Currently, it is a front-end-only application, allowing users to sign up, log in, and play without a back-end. I am currently studying Node.js, and the back-end of the app will be completed soon.";
-  const korchaB = "https://korcha-game.vercel.app/";
-  const bankistH = "My Movie List";
-  const bankistP =
+  const firtsProjectTopic = "Korcha - A Browser Game";
+  const firstProjectParagraph =
+    "Korcha is an old-school turn-based browser game which I developed after I started learning React. It consists of around 100 components. The project was important for me to understand the basics of React, such as useState, useEffect hooks, props, reusable components, React Router, etc. Since it was developed right after I started learning React, it does not have proper state management and has a lot of prop drilling. As soon as I have time from my other projects, I plan to implement proper state management using useReducer and Context or Redux. However, this project was essential for me to understand the fundamentals.";
+  const firstProjectLink = "https://korcha-game.vercel.app/";
+  const secondProjectTopic = "My Movie List";
+  const secondProjectParagraph =
     "My Movie List is a React app where you can search over thousands of movies and find details about them. You can also rate them and add to your watched list! New features will be applied soon.";
-  const bankistB = "https://ardsen.github.io/my-movie-list/";
-  const natgeoH = "Forkify - A Recipe App";
-  const natgeoP =
+  const secondProjectLink = "https://ardsen.github.io/my-movie-list/";
+  const thirdProjectTopic = "Forkify - A Recipe App";
+  const thirdProjectParagraph =
     "Forkify is an app where you can search between thousands of recipes and find detailed information about them. The app was developed following the model-view-controller (MVC) architecture. It also has features like bookmarking, adding new recipes and more.";
-  const natgeoB = "https://main--forkify-arda.netlify.app/";
+  const thirdProjectLink = "https://main--forkify-arda.netlify.app/";
+  const fourthProjectTopic = "Worldwise";
+  const fourthProjectParagraph =
+    "Worldwise is an app where you can select a city or place from a world map and take notes about that place. I implemented the Context API and the useReducer hook for state management. Additionally, I used the Leaflet API to get an interactive world map and Glitch for a fake JSON server, allowing the use of GET, POST, and DELETE methods to interact with an API.";
+  const fourthProjectLink =
+    "https://worldwise-git-main-ardsens-projects.vercel.app/";
   const githubH = "GitHub for More";
   const githubP = "You can visit my GitHub page to see more of my work.";
   const githubB = "https://github.com/ardsen";
@@ -32,7 +37,7 @@ function Main() {
     }
   };
   useEffect(() => {
-    if (count >= 5) {
+    if (count >= 6) {
       setCount((count) => 1);
     } else if (count <= 0) {
       setCount((count) => 4);
@@ -52,21 +57,23 @@ function Main() {
             bg="url(/projects-img-1.png)"
             count={count}
             setCount={setCount}
-            h={korchaH}
-            p={korchaP}
-            b={korchaB}
+            h={firtsProjectTopic}
+            p={firstProjectParagraph}
+            b={firstProjectLink}
             setIsModalOpen={setIsModalOpen}
           />
         )}
         {count === 2 && (
           <ProjectsSection
-            bg="url(/my-movie-list.png)"
+            bg="url(/worldwise.png)"
             count={count}
             setCount={setCount}
-            h={bankistH}
-            p={bankistP}
-            b={bankistB}
-            githubRepo="https://github.com/ardsen/forkify-app"
+            h={fourthProjectTopic}
+            p={fourthProjectParagraph}
+            b={fourthProjectLink}
+            githubRepo="https://github.com/ardsen/worldwise"
+            bgPosX="18rem"
+            bgPosY="-2rem"
           />
         )}
         {count === 3 && (
@@ -74,13 +81,24 @@ function Main() {
             bg="url(/projects-img-2.png)"
             count={count}
             setCount={setCount}
-            h={natgeoH}
-            p={natgeoP}
-            b={natgeoB}
-            githubRepo="https://github.com/ardsen/get-a-country"
+            h={thirdProjectTopic}
+            p={thirdProjectParagraph}
+            b={thirdProjectLink}
+            githubRepo="https://github.com/ardsen/forkify-app"
           />
         )}
         {count === 4 && (
+          <ProjectsSection
+            bg="url(/my-movie-list.png)"
+            count={count}
+            setCount={setCount}
+            h={secondProjectTopic}
+            p={secondProjectParagraph}
+            b={secondProjectLink}
+            githubRepo="https://github.com/ardsen/my-movie-list"
+          />
+        )}
+        {count === 5 && (
           <ProjectsSection
             bg="url(/projects-img-4.png)"
             count={count}
