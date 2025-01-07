@@ -72,8 +72,6 @@ function Main() {
             p={fourthProjectParagraph}
             b={fourthProjectLink}
             githubRepo="https://github.com/ardsen/worldwise"
-            bgPosX="18rem"
-            bgPosY="-2rem"
           />
         )}
         {count === 3 && (
